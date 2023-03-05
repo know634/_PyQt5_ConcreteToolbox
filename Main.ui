@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_Rectangle">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>矩形截面</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Tshape">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>T形截面</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Specification">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>查看规范</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_Security">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>安全等级一级</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>安全等级二级</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>安全等级三级</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_Security">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_Rebar">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>20</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>HPB300</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HRB400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HRBF400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RRB400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HRB500</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HRBF500</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_Concrete">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>C20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C35</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C40</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C45</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C50</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C55</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C60</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C65</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C70</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C75</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C80</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_Parameters">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>80</y>
+      <width>220</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Parameters">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>80</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>确定参数</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
